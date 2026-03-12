@@ -159,14 +159,6 @@ The developed framework can be applied in multiple real-world domains including:
 
 ---
 
-## Author
-
-**Niladri Ghosh**  
-Bachelor of Technology (Information Technology)  
-Bhilai Institute of Technology, Durg  
-Session: 2024–2025
-
----
 
 ## Acknowledgement
 
