@@ -102,7 +102,7 @@ These models learn patterns within the vectorized text data to accurately catego
 The system architecture consists of multiple components including data input, preprocessing modules, feature extraction layers, vector embedding generation, and deep learning classification models. The architecture ensures efficient processing of Hindi news text and accurate prediction of news categories.
 </p>
 
-<img src="images/system_architecture.png" width="100%">
+<img width="1330" height="754" alt="Architecture" src="https://github.com/user-attachments/assets/edd1ec5d-f47a-465f-9d09-066c16fd1feb" />
 
 ---
 
