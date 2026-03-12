@@ -1,5 +1,5 @@
 <h1 align="center">HNVec-Driven MultiDL Framework for Content-Based Classification of Hindi News Articles</h1>
-<h3 align = "justify> This project presents a deep learning–based framework for automatic classification of Hindi news articles using a hybrid embedding technique called HNVec combined with multiple deep learning architectures. The system is designed to improve the accuracy of content-based news categorization, which is an essential task in Natural Language Processing (NLP) for organizing large volumes of digital news content.</h3>
+<h3> This project presents a deep learning–based framework for automatic classification of Hindi news articles using a hybrid embedding technique called HNVec combined with multiple deep learning architectures. The system is designed to improve the accuracy of content-based news categorization, which is an essential task in Natural Language Processing (NLP) for organizing large volumes of digital news content.</h3>
 
 <h2>Project Overview</h2>
 
@@ -40,20 +40,20 @@ News Categories
 
 The articles are grouped into multiple thematic classes such as:
 
-Politics
+a. Politics
 
-Sports
+b. Sports
 
-Entertainment
+c. Entertainment
 
-Technology
+d. Technology
 
-Business
+e. Business
 
-National/General news
+f. National/General news
 
 These labeled articles form the training and testing data for the classification models.
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 Methodology
 
 The proposed system follows a structured machine learning pipeline:
