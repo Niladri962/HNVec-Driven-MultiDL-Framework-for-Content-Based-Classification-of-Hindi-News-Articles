@@ -1,137 +1,175 @@
 <h1 align="center">HNVec-Driven MultiDL Framework for Content-Based Classification of Hindi News Articles</h1>
-<h3> This project presents a deep learning–based framework for automatic classification of Hindi news articles using a hybrid embedding technique called HNVec combined with multiple deep learning architectures. The system is designed to improve the accuracy of content-based news categorization, which is an essential task in Natural Language Processing (NLP) for organizing large volumes of digital news content.</h3>
 
-<h2>Project Overview</h2>
+<p align="center">
+Bachelor of Technology Project | Information Technology <br>
+Bhilai Institute of Technology, Durg <br>
+Session: 2024–2025
+</p>
 
-<h3 align="justify">With the rapid growth of online journalism, thousands of news articles are published daily in Hindi across multiple domains such as politics, sports, business, entertainment, and technology. Manual classification of these articles is inefficient and time-consuming. This project proposes an automated classification pipeline that leverages vectorized text representations and deep learning models to categorize Hindi news articles effectively.</h3>
+---
 
-The framework integrates:
+## Project Overview
 
-1. A custom Hindi embedding representation (HNVec)
+<p align="justify">
+The rapid growth of digital journalism has resulted in the generation of massive volumes of online news content across multiple languages. Hindi, being one of the most widely spoken languages in India, contributes significantly to the digital news ecosystem. Efficient organization and classification of Hindi news articles have therefore become an important challenge in the field of Natural Language Processing (NLP).
+</p>
 
-2. Multiple deep learning architectures
+<p align="justify">
+This project presents a deep learning–based framework called <b>HNVec-Driven MultiDL Framework</b> for the automatic classification of Hindi news articles based on their textual content. The framework integrates a customized Hindi text vectorization technique known as <b>HNVec</b> with multiple deep learning models to improve the accuracy and efficiency of content-based news categorization.
+</p>
 
-3. A content-based classification pipeline
+<p align="justify">
+The system processes raw Hindi news data, performs text preprocessing, generates meaningful vector representations, and applies advanced deep learning architectures to classify news articles into their respective categories. The proposed approach aims to enhance the performance of Hindi text classification systems and contribute to the advancement of multilingual NLP research.
+</p>
 
-The objective is to build a robust multilingual NLP system specifically optimized for Hindi-language text processing.
+---
 
+## Objectives
 
-<h2>Dataset Description</h2>
+- Develop an automated system for **classification of Hindi news articles**.
+- Implement a **custom vector representation technique (HNVec)** for Hindi text.
+- Apply **multiple deep learning models** to improve classification performance.
+- Evaluate the model using standard **machine learning performance metrics**.
+- Provide a scalable framework that can be used for **large-scale Hindi news categorization**.
 
-The dataset used in this project consists of Hindi news articles collected from online news sources. Each article belongs to a predefined category that serves as the target label for classification.
+---
 
-Key Characteristics of the Dataset
+## Dataset Description
 
-a. Language: Hindi
+<p align="justify">
+The dataset used in this project consists of Hindi news articles collected from various digital news sources. The data is structured in a tabular format and contains textual content along with the corresponding category labels. These labeled articles are used for training and evaluating the classification models.
+</p>
 
-b. Data Type: Text-based news articles
+### Dataset Characteristics
 
-c. Format: CSV dataset
+- Language: **Hindi**
+- Data Format: **CSV file**
+- Data Type: **Text-based news articles**
+- Dataset Usage:
+  - Training the classification model
+  - Testing model performance
+  - Evaluating accuracy and prediction capability
 
-d. Fields included:
+### News Categories
 
-      1. Article text
+The dataset contains articles categorized into different thematic domains, such as:
 
-      2. Category label
+- Politics
+- Sports
+- Entertainment
+- Technology
+- Business
+- National / General News
 
-      3. Metadata (source/category information)
+---
 
-News Categories
+## Methodology
 
-The articles are grouped into multiple thematic classes such as:
+<p align="justify">
+The proposed framework follows a structured machine learning pipeline consisting of several stages including data preprocessing, feature extraction, vector representation, model training, and evaluation. Each stage is designed to ensure that the Hindi textual data is effectively processed and utilized by the deep learning models.
+</p>
 
-a. Politics
+### 1. Data Preprocessing
 
-b. Sports
+The preprocessing stage prepares the raw Hindi text for analysis.
 
-c. Entertainment
+- Removal of unnecessary symbols and noise
+- Tokenization of Hindi text
+- Stop-word removal
+- Text normalization
 
-d. Technology
+### 2. Feature Representation (HNVec)
 
-e. Business
+- A custom vector representation technique called **HNVec** is used.
+- Converts Hindi text into **numerical vector embeddings**.
+- Captures **semantic relationships and contextual information**.
 
-f. National/General news
+### 3. Deep Learning Models
 
-These labeled articles form the training and testing data for the classification models.
------------------------------------------------------------------------------------------------------------------------------------------
-Methodology
+Multiple deep learning architectures are used to classify the news articles.
 
-The proposed system follows a structured machine learning pipeline:
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
+- Hybrid deep learning models
 
-1. Data Preprocessing
+These models learn patterns within the vectorized text data to accurately categorize articles.
 
-Cleaning Hindi text
+---
 
-Removing stop words
+## System Architecture
 
-Tokenization
+<p align="justify">
+The system architecture consists of multiple components including data input, preprocessing modules, feature extraction layers, vector embedding generation, and deep learning classification models. The architecture ensures efficient processing of Hindi news text and accurate prediction of news categories.
+</p>
 
-Normalization
+<img src="images/system_architecture.png" width="100%">
 
-2. Feature Representation
+---
 
-The project introduces HNVec, a custom word embedding technique that converts Hindi text into numerical vectors suitable for deep learning models.
+## Workflow Pipeline
 
-This representation captures:
+<p align="justify">
+The workflow of the proposed system demonstrates the step-by-step process through which the Hindi news data flows from the raw dataset stage to the final classification output generated by the trained deep learning model.
+</p>
 
-Semantic relationships
+<img src="images/workflow_pipeline.png" width="100%">
 
-Contextual meaning
+---
 
-Linguistic patterns in Hindi text
+## Performance Evaluation
 
-3. Deep Learning Models
+<p align="justify">
+The performance of the proposed model is evaluated using widely accepted classification metrics to ensure reliability and accuracy of predictions.
+</p>
 
-Multiple deep learning architectures are applied to evaluate classification performance:
+### Evaluation Metrics
 
-Convolutional Neural Networks (CNN)
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix Analysis
 
-Recurrent Neural Networks (RNN)
+These metrics provide insights into how effectively the system categorizes Hindi news articles into their respective domains.
 
-Hybrid Deep Learning models
+---
 
-These models learn patterns in the vectorized text data to classify articles into the correct categories.
+## Technologies Used
 
-Results and Evaluation
+The project integrates several technologies and tools for implementation.
 
-The models are evaluated using common classification metrics such as:
+- Python
+- Natural Language Processing (NLP)
+- Deep Learning Frameworks
+- TensorFlow / Keras
+- Data Processing using CSV datasets
+- Machine Learning Evaluation Techniques
 
-Accuracy
+---
 
-Precision
+## Applications
 
-Recall
+The developed framework can be applied in multiple real-world domains including:
 
-F1-Score
+- News aggregation platforms
+- Automated news tagging systems
+- Content recommendation engines
+- Hindi language NLP research
+- Digital journalism analytics
 
-The experimental results demonstrate that the HNVec-driven MultiDL framework significantly improves classification performance compared to traditional text representation techniques.
+---
 
-Technologies Used
+## Author
 
-Python
+**Niladri Ghosh**  
+Bachelor of Technology (Information Technology)  
+Bhilai Institute of Technology, Durg  
+Session: 2024–2025
 
-NLP Techniques
+---
 
-Deep Learning
+## Acknowledgement
 
-TensorFlow / Keras / PyTorch
-
-CSV Dataset Processing
-
-Snowflake ETL (for data pipeline integration)
-
-Applications
-
-This framework can be applied in:
-
-News aggregation platforms
-
-Content recommendation systems
-
-Automated news tagging
-
-Hindi language NLP research
-
-Digital journalism analytics
-
-If you want, I can also help you create
+<p align="justify">
+The successful completion of this project would not have been possible without the guidance and support of the faculty members of the Department of Information Technology at Bhilai Institute of Technology, Durg. Special gratitude is extended to the project guide for providing valuable insights, encouragement, and continuous support throughout the development of this research work.
+</p>
