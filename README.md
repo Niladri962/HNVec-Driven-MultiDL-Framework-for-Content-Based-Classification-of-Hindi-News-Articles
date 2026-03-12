@@ -1,41 +1,40 @@
 <h1 align="center">HNVec-Driven MultiDL Framework for Content-Based Classification of Hindi News Articles</h1>
-This project presents a deep learning–based framework for automatic classification of Hindi news articles using a hybrid embedding technique called HNVec combined with multiple deep learning architectures. The system is designed to improve the accuracy of content-based news categorization, which is an essential task in Natural Language Processing (NLP) for organizing large volumes of digital news content.
+<h3 align = "justify> This project presents a deep learning–based framework for automatic classification of Hindi news articles using a hybrid embedding technique called HNVec combined with multiple deep learning architectures. The system is designed to improve the accuracy of content-based news categorization, which is an essential task in Natural Language Processing (NLP) for organizing large volumes of digital news content.</h3>
 
-Project Overview
+<h2>Project Overview</h2>
 
-With the rapid growth of online journalism, thousands of news articles are published daily in Hindi across multiple domains such as politics, sports, business, entertainment, and technology. Manual classification of these articles is inefficient and time-consuming.
-
-This project proposes an automated classification pipeline that leverages vectorized text representations and deep learning models to categorize Hindi news articles effectively.
+<h3 align="justify">With the rapid growth of online journalism, thousands of news articles are published daily in Hindi across multiple domains such as politics, sports, business, entertainment, and technology. Manual classification of these articles is inefficient and time-consuming. This project proposes an automated classification pipeline that leverages vectorized text representations and deep learning models to categorize Hindi news articles effectively.</h3>
 
 The framework integrates:
 
-A custom Hindi embedding representation (HNVec)
+1. A custom Hindi embedding representation (HNVec)
 
-Multiple deep learning architectures
+2. Multiple deep learning architectures
 
-A content-based classification pipeline
+3. A content-based classification pipeline
 
 The objective is to build a robust multilingual NLP system specifically optimized for Hindi-language text processing.
 
-Dataset Description
+
+<h2>Dataset Description</h2>
 
 The dataset used in this project consists of Hindi news articles collected from online news sources. Each article belongs to a predefined category that serves as the target label for classification.
 
 Key Characteristics of the Dataset
 
-Language: Hindi
+a. Language: Hindi
 
-Data Type: Text-based news articles
+b. Data Type: Text-based news articles
 
-Format: CSV dataset
+c. Format: CSV dataset
 
-Fields included:
+d. Fields included:
 
-Article text
+      1. Article text
 
-Category label
+      2. Category label
 
-Metadata (source/category information)
+      3. Metadata (source/category information)
 
 News Categories
 
